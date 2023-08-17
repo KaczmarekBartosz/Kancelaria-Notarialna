@@ -1,0 +1,113 @@
+.About {
+  padding: 1rem 1rem 1rem 1rem;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(161, 128, 93, 1), rgba(0, 0, 0, 0)),
+    url("./images/kancelaria.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: var(--white);
+  box-shadow: rgba(149, 157, 165, 1) 0px 8px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.About {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.About h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+
+  color: var(--green);
+  font-weight: 900;
+}
+
+.About div {
+  line-height: 1.6;
+  color: var(--white);
+}
+
+img {
+  width: 300px;
+  margin-left: 5rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 1) 0px 8px 24px;
+}
+
+.info {
+  display: flex;
+  padding: 1rem;
+  text-align: justify;
+  width: auto;
+  justify-content: center;
+}
+/* 
+blockquote {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 60%;
+  min-width: 400px;
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  background-color: var(--green);
+  border-radius: 20px;
+  color: var(--white);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-fon-smoothing: grayscale;
+  text-align: center;
+}
+
+blockquote p:first-of-type:before {
+  content: "\201c";
+  position: absolute;
+  left: 0.5em;
+}
+
+blockquote p:last-of-type:after {
+  content: "\201d";
+  position: absolute;
+}
+
+blockquote footer {
+  position: relative;
+}
+
+blockquote footer:before {
+  content: "–";
+  position: absolute;
+  left: 0.5em;
+}
+
+@media screen and (max-width: 1600px) {
+  blockquote {
+    font-size: 2vw;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  blockquote {
+    font-size: 2.5vw;
+  }
+}
+
+@media all and (max-width: 600px) {
+  blockquote {
+    font-size: 18px;
+  }
+  blockquote {
+    width: 100%;
+    min-width: 100%;
+  }
+} */

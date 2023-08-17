@@ -1,0 +1,13 @@
+.gradient-line {
+  background: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  height: 5px;
+  width: 1200px;
+  margin: 0 auto;
+}
